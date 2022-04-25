@@ -224,6 +224,7 @@ header {
 .feature-item:not(:last-child){
    margin-right: 30px;
 }
+
 .feature-item {
     width: 270px;
     height: 101px;
@@ -353,7 +354,6 @@ padding-bottom: 60px;
     padding-top: 0;
 }
 
-
 .example-list {
     display: flex;
     flex-wrap: wrap;
@@ -377,9 +377,7 @@ padding-bottom: 60px;
 
 .example-list .item:nth-child(3n) {
     margin-right: 0;
-
 }
-
 
 .card {
     border: solid 1px #EEEEEE;
@@ -388,6 +386,7 @@ padding-bottom: 60px;
     padding-bottom: 20px;
     padding-left: 24px;
 }
+
 .card-img {
     display: block;
 }
@@ -408,8 +407,4 @@ padding-bottom: 60px;
     color: var(--primary-text-color);
     margin-top: 0;
     margin-bottom: 0;
-}
-
-.container {
-    outline: solid 1px tomato;
 }
